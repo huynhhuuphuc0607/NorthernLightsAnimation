@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="edu.orangecoastcollege.cs273.phuynh101.northernlightsanimation.AnimationActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/lights1" />
+
+    <Button
+        android:id="@+id/frameAnimButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/frame_anim_button_text" />
+
+    <Button
+        android:id="@+id/rotateAnimButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rotate_anim_button_text" />
+
+    <Button
+        android:id="@+id/shakeAnimbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/shake_anim_button_text" />
+
+    <Button
+        android:id="@+id/customAnimButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/custom_anim_button_text" />
+</LinearLayout>
