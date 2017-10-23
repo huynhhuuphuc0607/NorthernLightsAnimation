@@ -16,6 +16,7 @@ public class AnimationActivity extends AppCompatActivity {
     private Animation rotateAnim;
     private Animation shakeAnim;
     private Animation customAnim;
+    private Animation popAnim;
 
     private ImageView lightsImageView;
     @Override
@@ -60,6 +61,7 @@ public class AnimationActivity extends AppCompatActivity {
     }
     public void toggleCustomAnim(View v)
     {
-
+        popAnim = AnimationUtils.loadAnimation(this, R.anim.heartbeat_anim);
+        lightsImageView.startAnimation(popAnim);
     }
 }
